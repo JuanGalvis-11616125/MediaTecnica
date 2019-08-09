@@ -1,0 +1,90 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(../../Indice/img/fondo.jpg);
+	font-family: Arial;
+}
+
+.menu
+{
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 30px;
+}
+
+.menu a
+{
+	text-decoration: none;
+	font-size: 30px;
+	margin: 10px auto;
+}
+
+.uno{background-color: #fff ; padding: 30px; color: #FF0000;}
+.dos{background-color: #000 ; padding: 30px; color: #76DD08;}
+.tres{background-color: #E2D21D ; padding: 30px; color: #000;}
+.cuatro{background-color: #050069 ; padding: 30px; color: #fff;}
+.cinco{background-color: #fff ; padding: 30px; color: #000;}
+
+.inicio
+{	
+	text-decoration: none;
+	text-align: center;
+	width: 34%;
+}
+
+.inicio h4
+{
+	padding: 10px;
+	background-image: url(../img/menu.jpg);
+	background-size: 100%;
+	width: 34%;
+	margin: 0 auto;
+	color: #000
+}
+
+
+article
+{
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 12px;
+}
+
+article p,h2
+{
+	padding: 10px;
+}
+
+article img
+{
+	margin: 10px;
+	width: 500px;
+}
+
+ol li
+{
+	text-align: left;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 6px;
+	font-size: 20px;
+}
+
+.meme2
+{
+	width: 30%;
+}
+
+.tiempo
+{
+	width: 60%;
+}
+

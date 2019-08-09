@@ -1,0 +1,83 @@
+*
+{
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+body
+{
+	background-image: url(../img/fondo.jpg);
+	background-size: 100%;
+	color: #fff;
+}
+
+h1,h2
+{
+	color: #fff;
+	font-size: 25px; 
+}
+
+hr
+{
+	width: 60%;
+}
+
+fieldset
+{
+	width: 50%;
+	margin: 0 auto;
+	background: #000824;
+	color: #fff;
+	border-radius: 50px;
+	text-align: left;
+}
+
+.boton
+{
+	width: 40%;
+	margin: 9px;
+	padding: 5px;
+	color: #000;
+	background-image: url(../img/boton.jpg);
+	background-size: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+#res
+{
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 400px;
+}
+
+.menu
+{
+	padding: 9px;
+	background: rgba(212,228,239,1);
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(18,79,145,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(18,79,145,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(18,79,145,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(18,79,145,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(18,79,145,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(18,79,145,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#124f91', GradientType=1 );
+}
+
+.menu a
+{
+	padding: 5px;
+	font-size: 29px;
+	color: #fff;
+	padding: 23px;
+	border-radius: 10px;	
+}
+
+.menu a:hover
+{
+	background-color: #000;
+}

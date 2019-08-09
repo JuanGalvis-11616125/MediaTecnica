@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TEST</title>
+
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/materialize.min.css">
+
+	<script src="js/materialize.js"></script>
+	<script src="js/materialize.min.js"></script>
+
+	<!-- Estilos CSS -->
+	
+	<link rel="stylesheet" href="css/estilos.css">
+
+	<!-- Archivo JS -->	
+
+	<script src="js/solucion.js"></script>
+
+	<link rel="icon" type="img/png" href="img/logo.png">
+
+</head>
+<body>
+
+	<br>
+
+	<div class="menu">
+		
+		<a href="">Test</a>
+		<a href="../Indice/index.html">Inicio</a>
+
+	</div>
+
+	<br>
+
+	<div class="test">
+		<form class="formulario">
+			<fieldset>
+				
+				<div class="pregunta">
+					<h2> <i class="em em-soccer"></i> HACES ACTIVIDAD FISICA? <i class="em em-soccer"></i> </h2>
+						
+						<input type="radio" name="p1" value="a" id="test1"><label for="test1">Regularmente</label>
+						<input type="radio" name="p1" value="b" id="test2"><label for="test2">Muchas Veces</label>
+						<input type="radio" name="p1" value="c" id="test3"><label for="test3">A Veces</label>
+						<input type="radio" name="p1" value="d" id="test4"><label for="test4">Nunca</label>
+
+				</div>
+
+			</fieldset>
+
+			<br>
+
+			<fieldset>
+				
+				<div class="pregunta">
+					<h2> <i class="em em-tomato"></i> COMES VEGETALES REGULARMENTE? <i class="em em-tomato"></i> </h2>
+
+						<input type="radio" name="p2" value="a" id="test5"><label for="test5">Regularmente</label>
+						<input type="radio" name="p2" value="b" id="test6"><label for="test6">Muchas Veces</label>
+						<input type="radio" name="p2" value="c" id="test7"><label for="test7">A Veces</label>
+						<input type="radio" name="p2" value="d" id="test8"><label for="test8">Nunca</label>
+				</div>
+
+			</fieldset>
+
+			<br>
+
+			<fieldset>
+				
+				<div class="pregunta">
+					<h2> <i class="em em--1"></i> FUMAS CIGARRILLO O DROGAS? <i class="em em--1"></i> </h2>
+
+						<input type="radio" name="p3" value="a" id="test9"><label for="test9">Nunca</label>
+						<input type="radio" name="p3" value="b" id="test10"><label for="test10">A Veces</label>
+						<input type="radio" name="p3" value="c" id="test11"><label for="test11">Muchas Veces</label>
+						<input type="radio" name="p3" value="d" id="test12"><label for="test12">Regularmente</label>
+				</div>
+
+			</fieldset>
+
+			<br>
+
+			<fieldset>
+				
+				<div class="pregunta">
+					<h2> <i class="em em-satellite"></i> TE GUSTA LA MUSICA? <i class="em em-satellite"></i> </h2>
+					
+						<input type="radio" name="p4" value="a" id="test13"><label for="test13">Mucho <i class="em em-tada"></i> </label>
+						<input type="radio" name="p4" value="b" id="test14"><label for="test14">Maso menos</label>
+						<input type="radio" name="p4" value="c" id="test15"><label for="test15">Un poco</label>
+						<input type="radio" name="p4" value="d" id="test16"><label for="test16">No <i class="em em-angry"></i> </label>
+				</div>
+
+			</fieldset>
+
+			<br>
+
+			<fieldset>
+				
+				<div>
+					<h2> <i class="em em-man"></i> ERES FEO? <i class="em em-woman"></i> </h2>
+						
+						<div class="emoji">				
+						<input type="radio" name="p5" value="a" id="test17"><label for="test17">Uff un Galan <i class="em em-sunglasses"></i></label>
+						<br>
+						<input type="radio" name="p5" value="b" id="test18"><label for="test18">Feo no, Arte Abstracto <i class="em em-art"></i> </label>
+						<br>
+						<input type="radio" name="p5" value="c" id="test19"><label for="test19">Normal <i class="em em-joy"></i></label>
+						<br>
+						<input type="radio" name="p5" value="d" id="test20"><label for="test20">Uff un Guajaro <i class="em em-man_with_turban"></i> </label>
+						</div>
+				</div>
+
+			</fieldset>
+
+			<input type="button" name="btn" onclick="mostrar()" value="Enviar" class="boton">
+			<br>
+			<input type="button" name="btn" onclick="refrescar()" value="Refrescar" class="boton">
+
+		</form>
+
+	<div id="res"></div>
+
+	<br>
+
+	<div id="cant"></div>
+
+	<br>
+
+	</div>
+
+	
+</body>
+</html>

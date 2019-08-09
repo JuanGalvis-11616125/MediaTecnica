@@ -1,0 +1,35 @@
+body
+{
+	background-image: url(IMG/menu1.jpg);
+}
+
+canvas
+{
+	border-radius: 10px;
+	background-image: url(IMG/fondo.png);
+	background-size: 100%;
+}
+
+.nav-wrapper
+{
+	background-image: url(IMG/title.jpg);
+	background-size: 100%;
+	width: 100%;
+	text-align: left;
+}
+
+.nav-wrapper .brand-logo
+{
+	text-align: center;
+	padding-left: 10px;
+}
+
+.nav-wrapper ul li a
+{
+	background-color: #8C0000;
+}
+
+.footer
+{
+	padding: 10px 0px;
+}
